@@ -2,3 +2,7 @@
 # EAGLE Autosave Files
 *.b#*
 *.s#*
+*.##*
+
+# EAGLE Library Temporary Library
+_full_library.scr
