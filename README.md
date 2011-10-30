@@ -1,11 +1,11 @@
 OmniLoco Hardware
-=============
+=================
 
 The official repository for all of the hardware used by and created for the OmniLoco
 project.
 
 Repository Contents
--------------
+-------------------
 
 ### Top Level
 
@@ -52,4 +52,15 @@ Contributing
 5. Create an issue with a link to your branch, or submit a pull request
 6. Enjoy a refreshing beverage and wait
 
+
+License
+-------
+All OmniLoco hardware is open source and compliant with the [Open Source Hardware Definition][2].
+
+Copyright (c) 2011 by the OmniLoco Foundation. This work is made available under the terms of the Creative Commons Attribution-ShareAlike 3.0 license, http://creativecommons.org/licenses/by-sa/3.0/.
+
+<img src="http://oshwlogo.com/logos/oshw-logo-100-px.png" alt="Open Source Hardware" height="55px"/>
+<img src="http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png" alt="CC-BY-SA" height="55px"/>
+
 [1]: http://dangerousprototypes.com/docs/Dangerous_Prototypes_Cadsoft_Eagle_parts_library
+[2]: http://freedomdefined.org/OSHW#Open_Source_Hardware_.28OSHW.29_Definition_1.0

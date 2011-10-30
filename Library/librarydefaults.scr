@@ -123,5 +123,33 @@ Layer 233 Eagle3D_PG3;
 Layer 250 Descript;
 Layer 251 SMDround;
 Layer 254 cooling;
-Description '';
+Description '\
+<h2>OmniLoco Eagle Footprint Library</h2>\n\
+\n\
+<p>Footprints for common components used by the OmniLoco Foundation in all hardware products and experiments. This is the same library which is used for all production hardware, although a <b>warning</b> should be made, as some parts may be experimental and not currently proven in production. Please also note that this library is optimised for the metric system, where applicable.</p>\n\
+\n\
+<h3>Revision History</h3>\n\
+<p>\n\
+<table width="100%" bgcolor="#EEE">\n\
+<tr bgcolor="#CCC">\n\
+  <td width="60"><b>Version</b></td>\n\
+  <td width="100"><b>Release Date</b></td>\n\
+  <td><b>Changes</b></td>\n\
+</tr>\n\
+<tr>\n\
+  <td>1.00</td>\n\
+  <td>30 October 2011</td>\n\
+  <td>Initial Release</td>\n\
+</tr>\n\
+</table>\n\
+</p>\n\
+\n\
+<h3>Credits</h3>\n\
+<ul>\n\
+<li>Angus Peart - angus@omniloco.org</li>\n\
+<li>David Carlson - david@omniloco.org</li>\n\
+</ul>\n\
+\n\
+<h3>License</h3>\n\
+Copyright (c) 2011 by the OmniLoco Foundation. This work is made available under the terms of the Creative Commons Attribution-ShareAlike 3.0 license, http://creativecommons.org/licenses/by-sa/3.0/.';
 
