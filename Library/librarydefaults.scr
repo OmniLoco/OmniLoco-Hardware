@@ -137,6 +137,19 @@ Description '\
   <td><b>Changes</b></td>\n\
 </tr>\n\
 <tr>\n\
+  <td>1.01</td>\n\
+  <td>10 November 2011</td>\n\
+  <td>\n\
+    Changed all device descriptions to follow standard format and provice useful information, such as DigiKey part numbers.\n\
+    <p>\n\
+      <b>Added</b>\n\
+      <ul>\n\
+        <li>Crystal: 5x3.2MM 2SMD</li>\n\
+      </ul>\n\
+    </p>\n\
+  </td>\n\
+</tr>\n\
+<tr>\n\
   <td>1.00</td>\n\
   <td>30 October 2011</td>\n\
   <td>Initial Release</td>\n\

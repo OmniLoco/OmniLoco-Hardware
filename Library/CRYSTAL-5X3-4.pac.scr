@@ -6,7 +6,7 @@
 Set Wire_Bend 2;
 Grid mm;
 
-Edit 'CRYSTAL-5X3.pac';
+Edit 'CRYSTAL-5X3-4.pac';
 Description 'Source: http://www.abracon.com/Resonators/abm3b.pdf';
 Layer 1;
 Smd '3' 1.2 0.9 -0 R0 (-1.85 -1.1);

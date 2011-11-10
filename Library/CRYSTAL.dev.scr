@@ -11,12 +11,20 @@ Prefix 'Q';
 Description '\
 <p><b>Crystals</b></p>\n\
 \n\
-<p><b>5x3.2MM</b> - Surface Mount Crystal</p>\n\
+<p><b>5x3.2MM 2SMD</b> - Surface Mount Crystal</p>\n\
+<ul>\n\
+<li>12.0MHz 8pF +/-30ppm [Digikey: 644-1034-1-ND]</li>\n\
+</ul>\n\
+\n\
+<p><b>5x3.2MM 4SMD</b> - Surface Mount Crystal</p>\n\
 <ul>\n\
 <li>8.0MHz 18pF +/-50ppm [Digikey: 535-9720-1-ND]</li>\n\
 </ul>';
 Value On;
 Add CRYSTAL 'G$1' Next 0 (0 0);
-Package 'CRYSTAL-5X3' '5X3';
+Package 'CRYSTAL-5X3-4' '5X3-4';
 Technology '';
 Connect  'G$1.2' '3'  'G$1.1' '1';
+Package 'CRYSTAL-5X3-2' '5X3-2';
+Technology '';
+Connect  'G$1.1' '1'  'G$1.2' '2';
