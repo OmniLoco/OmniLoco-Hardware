@@ -9,13 +9,20 @@ Grid mm;
 Edit '74LVC1G86.dev';
 Prefix 'U';
 Description '\
-SC-70-5: SN74LVC1G86DCKR (296-9854-1-ND)<br />\n\
-SOT353: 74LVC1G86SE-7 (74LVC1G86SE-7DICT-ND)';
+<p><b>XOR Logic Gate</b> - 7400 Series Logic</p>\n\
+<ul>\n\
+<li>Exclusive OR Gate (Inverter) <em>SC-70-5</em> - SN74LVC1G86DCKR [Digikey: 296-9854-1-ND]</li>\n\
+<li>Exclusive OR Gate (Inverter) <em>SOT353</em> - 74LVC1G86SE-7 [Digikey: 74LVC1G86SE-7DICT-ND]</li>\n\
+</ul>\n\
+<p>\n\
+<b>SOT353</b> - Standard SOT353 package.<br />\n\
+<b>SC70</b> - Smaller SC-70-5 package for high density designs.<br />\n\
+</p>';
 Value On;
 Add XOR 'G$1' Next 0 (0 0);
-Package 'SC-70-5' 'DCK';
+Package 'SC-70-5' 'SC70';
 Technology '';
 Connect  'G$1.I0' '1'  'G$1.I1' '2'  'G$1.GND' '3'  'G$1.O' '4'  'G$1.VCC' '5';
-Package 'SOT-353' '-SOT-353';
+Package 'SOT-353' 'SOT353';
 Technology '';
 Connect  'G$1.I0' '1'  'G$1.I1' '2'  'G$1.GND' '3'  'G$1.O' '4'  'G$1.VCC' '5';

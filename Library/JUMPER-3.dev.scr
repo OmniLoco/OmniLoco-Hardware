@@ -8,7 +8,7 @@ Grid mm;
 
 Edit 'JUMPER-3.dev';
 Prefix 'JP';
-Description '';
+Description '<b>Three Way Jumpers</b>';
 Value On;
 Add JUMPER-3 'G$1' Next 0 (-2.54 0);
 Package 'SJ_3' 'NOPASTE';

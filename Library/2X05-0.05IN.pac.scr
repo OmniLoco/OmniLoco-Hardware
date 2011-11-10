@@ -6,8 +6,11 @@
 Set Wire_Bend 2;
 Grid mm;
 
-Edit 'M50-10.pac';
-Description 'Harwin M50 1.27mm spaced 10 pin 2 row header';
+Edit '2X05-0.05IN.pac';
+Description '\
+Harwin M50 1.27mm spaced 10 pin 2 row header\n\
+\n\
+Source: http://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/GRPB_%20_2VWQS-RC%2010958-C.pdf';
 Layer 21;
 Circle 0.4064 (-3.945 -2.155) (-3.7806 -2.155);
 Layer 1;

@@ -8,7 +8,7 @@ Grid mm;
 
 Edit '3.3VA.dev';
 Prefix '';
-Description '<strong>Supply Symbol</strong>';
+Description '<b>+3.3V Analog Supply Symbol</b>';
 Value Off;
 Add 3.3VA 'G$1' Next 0 (0 0);
 Technology '';

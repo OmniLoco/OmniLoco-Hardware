@@ -9,8 +9,14 @@ Grid mm;
 Edit 'RESISTOR.dev';
 Prefix 'R';
 Description '\
-<strong>Resistor</strong><br />\n\
-Basic schematic elements and footprints for 0603 resistors.';
+<p><b>Resistors</b></p>\n\
+\n\
+<p><b>0402</b> - 0402 Surface Mount Resistors</p>\n\
+<ul>\n\
+<li>22 Ohm 1/16W 5% [Digikey: 311-22JRCT-ND]</li>\n\
+<li>4.7K Ohm 1/16W 5% [Digikey: 311-4.7KJRCT-ND]</li>\n\
+<li>10K Ohm 1/16W 5% [Digikey: 311-10KJRCT-ND]</li>\n\
+</ul>';
 Value On;
 Add RESISTOR 'G$1' Next 0 (0 0);
 Package '0603' '0603';

@@ -9,9 +9,9 @@ Grid mm;
 Edit 'BMP085.dev';
 Prefix 'U';
 Description '\
-<strong>BMP085 Digital Pressure Sensor</strong><br />\n\
-<br />\n\
-Digikey #: 828-1005-1-ND';
+<p><b>BMA180</b> - Bosch Sensortec Pressure Sensor</p>\n\
+\n\
+<p>Barometric Pressure Sensor - BMP085 [Digikey: 828-1005-1-ND]</p>';
 Value Off;
 Add BMP085 'G$1' Next 0 (-10.16 -10.16);
 Package 'BMP085' '''''';

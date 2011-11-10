@@ -8,7 +8,10 @@ Grid mm;
 
 Edit 'HMC5883L.dev';
 Prefix 'U';
-Description '3 Axis Digital Compass IC';
+Description '\
+<p><b>HMC5883L</b> - Honeywell Magnetic Sensor</p>\n\
+\n\
+<p>3 Axis Digital Compass IC - HMC5883L [Digikey: 342-1082-1-ND]</p>';
 Value Off;
 Add HMC5883L 'G$1' Next 0 (0 0);
 Package '16LPCC' '''''';

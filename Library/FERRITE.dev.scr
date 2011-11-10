@@ -6,19 +6,17 @@
 Set Wire_Bend 2;
 Grid mm;
 
-Edit 'CAPACITOR.dev';
-Prefix 'C';
+Edit 'FERRITE.dev';
+Prefix 'FB';
 Description '\
-<strong>Capacitor</strong><br />\n\
-Standard SMD ceramic capacitors.';
+<p><b>Ferrite Bead</b></p>\n\
+<p><b>0603<b/></p>\n\
+<ul>\n\
+<li>HZ0603B102R-10 - 1K Ohm, 200mA [Digikey: 240-2378-1-ND]</li>\n\
+<li>742792664 - 1K Ohm, 300mA [Digikey: 732-1586-1-ND]</li>\n\
+</ul>';
 Value On;
-Add CAPACITOR 'G$1' Next 0 (0 0);
+Add FERRITE 'G$1' Next 0 (0 0);
 Package '0603' '0603';
-Technology '';
-Connect  'G$1.1' '1'  'G$1.2' '2';
-Package '0805' '0805';
-Technology '';
-Connect  'G$1.1' '1'  'G$1.2' '2';
-Package '0402-CAP' '0402';
 Technology '';
 Connect  'G$1.1' '1'  'G$1.2' '2';

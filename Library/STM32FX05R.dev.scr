@@ -6,12 +6,27 @@
 Set Wire_Bend 2;
 Grid mm;
 
-Edit 'STM32F(2/4)05.dev';
+Edit 'STM32FX05R.dev';
 Prefix 'U';
-Description '';
-Value Off;
+Description '\
+<p><b>STM32Fx05R</b> - STM32 F2 and F4 Microcontroller</p>\n\
+\n\
+<p><b>F2 Series</b></p>\n\
+<ul>\n\
+<li>128KB Flash - STM32F205RBT6 [Digikey: 497-11153-ND]</li>\n\
+<li>256KB Flash - STM32F205RCT6 [Digikey: 497-11154-ND]</li>\n\
+<li>512KB Flash - STM32F205RET6 [Digikey: 497-11155-ND]</li>\n\
+<li>768KB Flash - STM32F205RFT6 [Digikey: 497-11156-ND]</li>\n\
+<li>1024KB Flash - STM32F205RGT6 [Digikey: 497-11157-ND]</li>\n\
+</ul>\n\
+\n\
+<p><b>F4 Series</b></p>\n\
+<ul>\n\
+<li>1024KB Flash - STM32F405RGT6 [Digikey: 497-11767-ND]</li>\n\
+</ul>';
+Value On;
 Add STM32F205XX 'G$1' Next 0 (0 0);
-Package 'LQFP64' 'RE';
+Package 'LQFP64' '''''';
 Technology '';
 Connect  'G$1.VBAT' '1'  'G$1.PC13-RTC_AF1' '2'  'G$1.PC14-OSC32_IN' '3'  'G$1.PC15-OSC32_OUT' '4'  'G$1.PH0-OSC_IN' '5' \
          'G$1.PH1-OSC_OUT' '6'  'G$1.NRST' '7'  'G$1.PC0' '8'  'G$1.PC1' '9'  'G$1.PC2' '10'  'G$1.PC3' '11' \

@@ -9,8 +9,11 @@ Grid mm;
 Edit 'LP2985.dev';
 Prefix 'U';
 Description '\
-<strong>National Semiconductor</strong> LP2985<br />\n\
-Micropower 150 mA Low-Noise Ultra Low-Dropout Regulator in SOT-23 and micro SMD Packages';
+<p><b>LP2985</b> - Low Dropout Linear Regulator</p>\n\
+\n\
+<ul>\n\
+<li>3.3V 150mA - LP2985-33DBVR [Digikey: 296-18476-1-ND]</li>\n\
+</ul>';
 Value Off;
 Add LP2985 'G$1' Next 0 (2.54 2.54);
 Package 'SOT-23-5' '''''';

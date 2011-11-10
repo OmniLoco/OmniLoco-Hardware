@@ -8,9 +8,14 @@ Grid mm;
 
 Edit 'USB.dev';
 Prefix 'USB';
-Description 'Micro-B: ZX62-B-5PA(11) (H11634CT-ND)';
+Description '\
+<p><b>USB Connectors</b></p>\n\
+\n\
+<ul>\n\
+<li><b>Micro USB</b> - ZX62-B-5PA(11) [Digikey: H11634CT-ND]</li>\n\
+</ul>';
 Value Off;
 Add USB 'G$1' Next 0 (0 -2.54);
-Package 'USB-MICRO-B' '-MICRO-B';
+Package 'USB-MICRO-B' 'MICRO-B';
 Technology '';
 Connect  'G$1.VBUS' 'VBUS'  'G$1.GND' 'GND'  'G$1.D-' 'D-'  'G$1.D+' 'D+';

@@ -8,7 +8,13 @@ Grid mm;
 
 Edit 'RESISTOR-ARRAY.dev';
 Prefix 'RA';
-Description '';
+Description '\
+<p><b>Resistor Arrays</b></p>\n\
+\n\
+<p><b>1206 (Concave)</b> - 1206 (Concave) Surface Mount Resistor Arrays</p>\n\
+<ul>\n\
+<li>330 Ohm 1/16W 5% [Digikey: TC164J-330CT-ND]</li>\n\
+</ul>';
 Value On;
 Add RESISTOR '-1' Next 0 (0 15.24);
 Add RESISTOR '-2' Next 0 (0 5.08);

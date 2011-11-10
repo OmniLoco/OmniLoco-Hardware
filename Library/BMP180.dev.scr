@@ -7,8 +7,11 @@ Set Wire_Bend 2;
 Grid mm;
 
 Edit 'BMP180.dev';
-Prefix '';
-Description '';
+Prefix 'U';
+Description '\
+<p><b>BMP180</b> - Bosch Sensortec Pressure Sensor</p>\n\
+\n\
+<p>Barometric Pressure Sensor - BMP180 [Digikey: 828-1027-1-ND]</p>';
 Value Off;
 Add BMP180 'G$1' Next 0 (0 0);
 Package 'BMP180' '''''';
