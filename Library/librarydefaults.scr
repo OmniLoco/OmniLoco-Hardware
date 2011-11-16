@@ -164,5 +164,9 @@ Description '\
 </ul>\n\
 \n\
 <h3>License</h3>\n\
-Copyright (c) 2011 by the OmniLoco Foundation. This work is made available under the terms of the Creative Commons Attribution-ShareAlike 3.0 license, http://creativecommons.org/licenses/by-sa/3.0/.';
+Copyright (c) 2011 by the OmniLoco Foundation. This work is made available under the terms of the Creative Commons Attribution-ShareAlike 3.0 license, http://creativecommons.org/licenses/by-sa/3.0/.\n\
+<!--\n\
+Changes between versions\n\
+Updated: Jumper symbol - added pin nubmers\n\
+-->';
 

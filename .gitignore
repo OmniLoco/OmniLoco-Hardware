@@ -4,5 +4,6 @@
 *.s#*
 *.##*
 
-# EAGLE Library Temporary Library
+# EAGLE Library Files
 _full_library.scr
+*.bat
