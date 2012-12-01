@@ -18,11 +18,11 @@ Description '\
 <b>SOT353</b> - Standard SOT353 package.<br />\n\
 <b>SC70</b> - Smaller SC-70-5 package for high density designs.<br />\n\
 </p>';
-Value On;
-Add XOR 'G$1' Next 0 (0 0);
+Value on;
+Add XOR 'G$1' next 0 (0 0);
 Package 'SC-70-5' 'SC70';
 Technology '';
-Connect  'G$1.I0' '1'  'G$1.I1' '2'  'G$1.GND' '3'  'G$1.O' '4'  'G$1.VCC' '5';
+Connect  'G$1.GND' '3'  'G$1.I0' '1'  'G$1.I1' '2'  'G$1.O' '4'  'G$1.VCC' '5';
 Package 'SOT-353' 'SOT353';
 Technology '';
-Connect  'G$1.I0' '1'  'G$1.I1' '2'  'G$1.GND' '3'  'G$1.O' '4'  'G$1.VCC' '5';
+Connect  'G$1.GND' '3'  'G$1.I0' '1'  'G$1.I1' '2'  'G$1.O' '4'  'G$1.VCC' '5';

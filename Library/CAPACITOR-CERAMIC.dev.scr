@@ -31,8 +31,8 @@ Description '\
 <ul>\n\
 <li>10uF 16V 10% [Digikey: 587-1295-1-ND]</li>\n\
 </ul>';
-Value On;
-Add CAPACITOR 'G$1' Next 0 (0 0);
+Value on;
+Add CAPACITOR 'G$1' next 0 (0 0);
 Package '0603' '0603';
 Technology '';
 Connect  'G$1.1' '1'  'G$1.2' '2';

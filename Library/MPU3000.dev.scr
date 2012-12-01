@@ -12,10 +12,10 @@ Description '\
 <p><b>MPU3000</b> - Invensense Digital Gyroscope</p>\n\
 \n\
 <p>3 Axis Digital Gyroscope - MPU3000 [Invensense: MPU-3000]</p>';
-Value Off;
-Add MPU3000 'G$1' Next 0 (-2.54 -2.54);
-Package 'QFN-24' '''''';
+Value off;
+Add MPU3000 'G$1' next 0 (-2.54 -2.54);
+Package 'QFN-24' '';
 Technology '';
-Connect  'G$1.CLKIN' '1'  'G$1.AUX_DA' '6'  'G$1.AUX_CL' '7'  'G$1.CS' '8'  'G$1.AD0/SDO' '9' \
-         'G$1.REGOUT' '10'  'G$1.FSYNC' '11'  'G$1.INT' '12'  'G$1.VDD' '13'  'G$1.GND' '18'  'G$1.CPOUT' '20' \
-         'G$1.CLKOUT' '22'  'G$1.SCL/SCLK' '23'  'G$1.SDA/SDI' '24';
+Connect  'G$1.AD0/SDO' '9'  'G$1.AUX_CL' '7'  'G$1.AUX_DA' '6'  'G$1.CLKIN' '1'  'G$1.CLKOUT' '22' \
+         'G$1.CPOUT' '20'  'G$1.CS' '8'  'G$1.FSYNC' '11'  'G$1.GND' '18'  'G$1.INT' '12'  'G$1.REGOUT' '10' \
+         'G$1.SCL/SCLK' '23'  'G$1.SDA/SDI' '24'  'G$1.VDD' '13';

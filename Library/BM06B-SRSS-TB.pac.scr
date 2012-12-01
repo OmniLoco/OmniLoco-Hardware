@@ -31,5 +31,6 @@ Smd 'NC@2' 1.2 1.8 -0 R0 (6.3 -2.525);
 Layer 25;
 Change Size 1.27;
 Change Ratio 8;
-Change Font Vector;
+Change Align bottom left;
+Change Font vector;
 Text '>NAME' R0 (-0.2 -2.6);

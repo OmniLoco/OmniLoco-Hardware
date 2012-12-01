@@ -12,9 +12,9 @@ Description '\
 <p><b>BMA180</b> - Bosch Sensortec Accelerometer</p>\n\
 \n\
 <p>3-Axis Accelerometer - BMA180 [Digikey: 828-1019-1-ND]</p>';
-Value Off;
-Add BMA180 'G$1' Next 0 (0 0);
-Package 'LGA12' '''''';
+Value off;
+Add BMA180 'G$1' next 0 (0 0);
+Package 'LGA12' '';
 Technology '';
-Connect  'G$1.VDD' '2'  'G$1.VSS' '3'  'G$1.INT' '4'  'G$1.CSB' '5'  'G$1.SCK' '7' \
-         'G$1.SDO' '8'  'G$1.SDI/SDA' '9'  'G$1.VDDIO' '10';
+Connect  'G$1.CSB' '5'  'G$1.INT' '4'  'G$1.SCK' '7'  'G$1.SDI/SDA' '9'  'G$1.SDO' '8' \
+         'G$1.VDD' '2'  'G$1.VDDIO' '10'  'G$1.VSS' '3';

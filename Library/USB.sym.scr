@@ -8,12 +8,14 @@ Grid mm;
 
 Edit 'USB.sym';
 Layer 94;
-Wire  0.254 (-5.08 -3.81) (0 -3.81) (0 6.35) (-5.08 6.35);
+Wire  0.254 \
+      (-5.08 -3.81) (0 -3.81) (0 6.35) (-5.08 6.35);
 Layer 94;
 Change Size 2.54;
 Change Ratio 8;
+Change Align bottom left;
 Text 'USB' R270 (-3.81 5.08);
-Pin 'D+' I/O None Short R180 Pad 0 (2.54 -2.54);
-Pin 'D-' I/O None Short R180 Pad 0 (2.54 0);
-Pin 'VBUS' I/O None Short R180 Pad 0 (2.54 2.54);
-Pin 'GND' I/O None Short R180 Pad 0 (2.54 5.08);
+Pin 'D+' io none short R180 pad 0 (2.54 -2.54);
+Pin 'D-' io none short R180 pad 0 (2.54 0);
+Pin 'VBUS' io none short R180 pad 0 (2.54 2.54);
+Pin 'GND' io none short R180 pad 0 (2.54 5.08);

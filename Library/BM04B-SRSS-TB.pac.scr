@@ -27,4 +27,5 @@ Smd 'NC@2' 1.2 1.8 -0 R0 (4.3 -2.525);
 Layer 25;
 Change Size 0.8128;
 Change Ratio 10;
+Change Align bottom left;
 Text '>NAME' R0 (-0.27 -2.5);

@@ -26,8 +26,8 @@ Description '\
 <b>0603-LP</b> - Standard 0603 footprint with mounting holes and clearances for VLP-XXX series lightpipes.<br />\n\
 <b>1206</b> - Standard 1206 footprint.<br />\n\
 </p>';
-Value On;
-Add LED 'G$1' Next 0 (0 0);
+Value on;
+Add LED 'G$1' next 0 (0 0);
 Package '1206-LED' '1206';
 Technology '';
 Connect  'G$1.A' 'A'  'G$1.C' 'C';

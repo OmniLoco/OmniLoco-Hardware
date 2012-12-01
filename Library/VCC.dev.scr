@@ -9,6 +9,6 @@ Grid mm;
 Edit 'VCC.dev';
 Prefix 'P+';
 Description '<b>Vcc Supply Symbol</b>';
-Value Off;
-Add VCC '1' Next 0 (0 0);
+Value off;
+Add VCC '1' next 0 (0 0);
 Technology '';

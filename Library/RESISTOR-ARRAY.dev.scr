@@ -15,16 +15,16 @@ Description '\
 <ul>\n\
 <li>330 Ohm 1/16W 5% [Digikey: TC164J-330CT-ND]</li>\n\
 </ul>';
-Value On;
-Add RESISTOR '-1' Next 0 (0 15.24);
-Add RESISTOR '-2' Next 0 (0 5.08);
-Add RESISTOR '-3' Next 0 (0 -5.08);
-Add RESISTOR '-4' Next 0 (0 -15.24);
+Value on;
+Add RESISTOR '-1' next 0 (0 15.24);
+Add RESISTOR '-2' next 0 (0 5.08);
+Add RESISTOR '-3' next 0 (0 -5.08);
+Add RESISTOR '-4' next 0 (0 -15.24);
 Package '1206-ARRAY' '-1206';
 Technology '';
-Connect  '-1.1' 'A1'  '-2.1' 'B1'  '-3.1' 'C1'  '-4.1' 'D1'  '-1.2' 'A2' \
-         '-2.2' 'B2'  '-3.2' 'C2'  '-4.2' 'D2';
+Connect  '-1.1' 'A1'  '-1.2' 'A2'  '-2.1' 'B1'  '-2.2' 'B2'  '-3.1' 'C1' \
+         '-3.2' 'C2'  '-4.1' 'D1'  '-4.2' 'D2';
 Package '0804-ARRAY' '-0804';
 Technology '';
-Connect  '-1.1' 'A1'  '-2.1' 'B1'  '-3.1' 'C1'  '-4.1' 'D1'  '-1.2' 'A2' \
-         '-2.2' 'B2'  '-3.2' 'C2'  '-4.2' 'D2';
+Connect  '-1.1' 'A1'  '-1.2' 'A2'  '-2.1' 'B1'  '-2.2' 'B2'  '-3.1' 'C1' \
+         '-3.2' 'C2'  '-4.1' 'D1'  '-4.2' 'D2';

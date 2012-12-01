@@ -7,10 +7,11 @@ Set Wire_Bend 2;
 Grid mm;
 
 Edit 'GND.sym';
-Pin 'GND' Sup None Short R270 Off 0 (0 2.54);
 Layer 94;
 Wire  0.254 (-1.905 0) (1.905 0);
 Layer 96;
 Change Size 1.27;
 Change Ratio 8;
+Change Align bottom left;
 Text '>VALUE' R0 (-1.778 -1.778);
+Pin 'GND' sup none short R270 off 0 (0 2.54);

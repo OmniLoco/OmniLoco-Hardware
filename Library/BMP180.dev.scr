@@ -12,8 +12,8 @@ Description '\
 <p><b>BMP180</b> - Bosch Sensortec Pressure Sensor</p>\n\
 \n\
 <p>Barometric Pressure Sensor - BMP180 [Digikey: 828-1027-1-ND]</p>';
-Value Off;
-Add BMP180 'G$1' Next 0 (0 0);
-Package 'BMP180' '''''';
+Value off;
+Add BMP180 'G$1' next 0 (0 0);
+Package 'BMP180' '';
 Technology '';
-Connect  'G$1.VDD' '2'  'G$1.VDDIO' '3'  'G$1.SCL' '5'  'G$1.SDA' '6'  'G$1.GND' '7';
+Connect  'G$1.GND' '7'  'G$1.SCL' '5'  'G$1.SDA' '6'  'G$1.VDD' '2'  'G$1.VDDIO' '3';

@@ -8,4 +8,4 @@ Grid mm;
 
 Edit 'TESTPOINT_1MM_POGOPIN.pac';
 Description 'Source: http://www.sparkfun.com/datasheets/Prototyping/Connectors/conical_pogo_pin_09iv09.pdf';
-Change Drill 1.016;Pad '1' Round 0 R0 (0 0);
+Change Drill 1.016;Pad '1' round 0 R0 (0 0);

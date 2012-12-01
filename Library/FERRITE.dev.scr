@@ -15,8 +15,8 @@ Description '\
 <li>HZ0603B102R-10 - 1K Ohm, 200mA [Digikey: 240-2378-1-ND]</li>\n\
 <li>742792664 - 1K Ohm, 300mA [Digikey: 732-1586-1-ND]</li>\n\
 </ul>';
-Value On;
-Add FERRITE 'G$1' Next 0 (0 0);
+Value on;
+Add FERRITE 'G$1' next 0 (0 0);
 Package '0603' '0603';
 Technology '';
 Connect  'G$1.1' '1'  'G$1.2' '2';

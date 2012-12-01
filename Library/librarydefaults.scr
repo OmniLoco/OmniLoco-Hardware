@@ -84,31 +84,7 @@ Layer 116 Patch_BOT;
 Layer 118 Rect_Pads;
 Layer 121 _tsilk;
 Layer 122 _bsilk;
-Layer 123 tTestmark;
-Layer 124 bTestmark;
-Layer 125 _tNames;
-Layer 131 tAdjust;
-Layer 132 bAdjust;
-Layer 144 Drill_legend;
-Layer 151 HeatSink;
-Layer 199 Contour;
-Layer 200 200bmp;
-Layer 201 201bmp;
 Layer 202 202bmp;
-Layer 203 203bmp;
-Layer 204 204bmp;
-Layer 205 205bmp;
-Layer 206 206bmp;
-Layer 207 207bmp;
-Layer 208 208bmp;
-Layer 209 209bmp;
-Layer 210 210bmp;
-Layer 211 211bmp;
-Layer 212 212bmp;
-Layer 213 213bmp;
-Layer 214 214bmp;
-Layer 215 215bmp;
-Layer 216 216bmp;
 Layer 217 217bmp;
 Layer 218 218bmp;
 Layer 219 219bmp;
@@ -117,12 +93,8 @@ Layer 221 221bmp;
 Layer 222 222bmp;
 Layer 223 223bmp;
 Layer 224 224bmp;
-Layer 231 Eagle3D_PG1;
-Layer 232 Eagle3D_PG2;
-Layer 233 Eagle3D_PG3;
 Layer 250 Descript;
 Layer 251 SMDround;
-Layer 254 cooling;
 Description '\
 <h2>OmniLoco Eagle Footprint Library</h2>\n\
 \n\
@@ -137,7 +109,23 @@ Description '\
   <td><b>Changes</b></td>\n\
 </tr>\n\
 <tr>\n\
-  <td>1.01</td>\n\
+  <td>1.0.2</td>\n\
+  <td>12 Novenber 2012</td>\n\
+  <td>\n\
+      <p>\n\
+      <b>Added</b>\n\
+      <ul>\n\
+        <li>MPU6000</li>\n\
+        <li>MAG3110</li>\n\
+        <li>LPS331AP</li>\n\
+        <li>0.5mm and 0.7mm diameter testpoint footprints</li>\n\
+        <li>USB Micro B connector with PTH retention.</li>\n\
+      </ul>\n\
+      </p>\n\
+  </td>\n\
+</tr>\n\
+<tr>\n\
+  <td>1.0.1</td>\n\
   <td>10 November 2011</td>\n\
   <td>\n\
     Changed all device descriptions to follow standard format and provice useful information, such as DigiKey part numbers.\n\

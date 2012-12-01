@@ -14,8 +14,8 @@ Description '\
 <ul>\n\
 <li>3.3V 150mA - LP2985-33DBVR [Digikey: 296-18476-1-ND]</li>\n\
 </ul>';
-Value Off;
-Add LP2985 'G$1' Next 0 (2.54 2.54);
-Package 'SOT-23-5' '''''';
+Value off;
+Add LP2985 'G$1' next 0 (2.54 2.54);
+Package 'SOT-23-5' '';
 Technology '';
-Connect  'G$1.VIN' '1'  'G$1.GND' '2'  'G$1.ON_OFF' '3'  'G$1.BYPASS' '4'  'G$1.VOUT' '5';
+Connect  'G$1.BYPASS' '4'  'G$1.GND' '2'  'G$1.ON_OFF' '3'  'G$1.VIN' '1'  'G$1.VOUT' '5';

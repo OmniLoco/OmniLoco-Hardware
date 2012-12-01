@@ -20,11 +20,11 @@ Description '\
 <ul>\n\
 <li>8.0MHz 18pF +/-50ppm [Digikey: 535-9720-1-ND]</li>\n\
 </ul>';
-Value On;
-Add CRYSTAL 'G$1' Next 0 (0 0);
+Value on;
+Add CRYSTAL 'G$1' next 0 (0 0);
 Package 'CRYSTAL-5X3-4' '5X3-4';
 Technology '';
-Connect  'G$1.2' '3'  'G$1.1' '1';
+Connect  'G$1.1' '1'  'G$1.2' '3';
 Package 'CRYSTAL-5X3-2' '5X3-2';
 Technology '';
 Connect  'G$1.1' '1'  'G$1.2' '2';

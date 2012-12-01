@@ -14,8 +14,8 @@ Description '\
 <li>Vf: 800mV, 30V 200mA - BAT543C [Digikey: BAT54CFSCT-ND]</li>\n\
 <li>Vf: 900mV, 40V 300mA - BAT54CFILM [Digikey: 497-3786-2-ND]</li>\n\
 </ul>';
-Value Off;
-Add BAT54C 'G$1' Next 0 (0 0);
-Package 'SOT23' '''''';
+Value off;
+Add BAT54C 'G$1' next 0 (0 0);
+Package 'SOT23' '';
 Technology '';
 Connect  'G$1.P$1' '1'  'G$1.P$2' '2'  'G$1.P$3' '3';

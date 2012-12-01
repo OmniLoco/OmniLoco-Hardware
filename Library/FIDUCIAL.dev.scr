@@ -11,8 +11,8 @@ Prefix 'FID';
 Description '\
 <b>Fiducial Alignment Points</b>\n\
 <p>Various fiducial points for machine vision alignment.</p>';
-Value Off;
-Add FIDUCIAL 'G$1' Next 0 (0 0);
+Value off;
+Add FIDUCIAL 'G$1' next 0 (0 0);
 Package 'FIDUCIAL-1X2.5' '1X2.5';
 Technology '';
 Package 'PASS-ROUND' 'ROUND';

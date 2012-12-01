@@ -17,8 +17,8 @@ Description '\
 <li>4.7K Ohm 1/16W 5% [Digikey: 311-4.7KJRCT-ND]</li>\n\
 <li>10K Ohm 1/16W 5% [Digikey: 311-10KJRCT-ND]</li>\n\
 </ul>';
-Value On;
-Add RESISTOR 'G$1' Next 0 (0 0);
+Value on;
+Add RESISTOR 'G$1' next 0 (0 0);
 Package '0603' '0603';
 Technology '';
 Connect  'G$1.1' '1'  'G$1.2' '2';

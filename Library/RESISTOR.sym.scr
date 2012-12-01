@@ -7,17 +7,19 @@ Set Wire_Bend 2;
 Grid mm;
 
 Edit 'RESISTOR.sym';
-Pin '2' Pas None Short R180 Off 1 (5.08 0);
-Layer 95;
-Change Size 1.27;
-Change Ratio 8;
-Text '>NAME' R0 (-2.54 1.524);
-Layer 96;
-Change Size 1.27;
-Change Ratio 8;
-Text '>VALUE' R0 (-2.54 -2.794);
-Pin '1' Pas None Short R0 Off 1 (-5.08 0);
 Layer 94;
 Wire  0.1524 (-2.54 0) (-2.159 1.016) (-1.524 -1.016) (-0.889 1.016) \
       (-0.254 -1.016) (0.381 1.016) (1.016 -1.016) (1.651 1.016) \
       (2.286 -1.016) (2.54 0);
+Layer 95;
+Change Size 1.27;
+Change Ratio 8;
+Change Align bottom left;
+Text '>NAME' R0 (-2.54 1.524);
+Layer 96;
+Change Size 1.27;
+Change Ratio 8;
+Change Align bottom left;
+Text '>VALUE' R0 (-2.54 -2.794);
+Pin '2' pas none short R180 off 1 (5.08 0);
+Pin '1' pas none short R0 off 1 (-5.08 0);

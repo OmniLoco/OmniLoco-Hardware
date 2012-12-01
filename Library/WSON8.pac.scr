@@ -8,6 +8,11 @@ Grid mm;
 
 Edit 'WSON8.pac';
 Description '';
+Layer 21;
+Wire  0.127 (-2.5 3) (2.5 3) (2.5 -3) (-2.5 -3) \
+      (-2.5 3);
+Layer 21;
+Circle 0.127 (-1.875 -1.625) (-1.625 -1.625);
 Layer 1;
 Smd '1' 0.5 0.75 -0 R0 (-1.905 -2.625);
 Layer 1;
@@ -24,16 +29,13 @@ Layer 1;
 Smd '7' 0.5 0.75 -0 R0 (-0.635 2.625);
 Layer 1;
 Smd '8' 0.5 0.75 -0 R0 (-1.905 2.625);
-Layer 21;
-Wire  0.127 (-2.5 3) (2.5 3) (2.5 -3) (-2.5 -3) \
-      (-2.5 3);
 Layer 25;
 Change Size 0.8128;
 Change Ratio 10;
+Change Align bottom left;
 Text '>Name' R0 (-2 0.5);
 Layer 27;
 Change Size 0.8128;
 Change Ratio 10;
+Change Align bottom left;
 Text '>Value' R0 (-2 -1);
-Layer 21;
-Circle 0.127 (-1.875 -1.625) (-1.625 -1.625);

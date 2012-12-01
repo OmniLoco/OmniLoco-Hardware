@@ -9,6 +9,6 @@ Grid mm;
 Edit 'GND.dev';
 Prefix 'GND';
 Description '<b>Ground Supply Symbol</b>';
-Value Off;
-Add GND 'G$1' Next 0 (0 0);
+Value off;
+Add GND 'G$1' next 0 (0 0);
 Technology '';

@@ -7,14 +7,16 @@ Set Wire_Bend 2;
 Grid mm;
 
 Edit 'TESTPOINT.sym';
-Pin '1' I/O None Short R90 Off 0 (0 0);
 Layer 94;
 Circle 0.254 (0 3.81) (1.27 3.81);
 Layer 95;
 Change Size 1.27;
 Change Ratio 8;
+Change Align bottom left;
 Text '>NAME' R0 (-2.54 7.62);
 Layer 95;
 Change Size 1.27;
 Change Ratio 8;
+Change Align bottom left;
 Text '>VALUE' R0 (-2.54 5.715);
+Pin '1' io none short R90 off 0 (0 0);

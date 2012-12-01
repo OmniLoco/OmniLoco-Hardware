@@ -12,13 +12,13 @@ Description '\
 <p><b>W25Xx0BV</b> - SPI Flash</p>\n\
 \n\
 <p>4Mbit SPI Flash - W25X40BVSNIG [Digikey: W25X40BVSNIG-ND]</p>';
-Value Off;
-Add W25X40BV 'G$1' Next 0 (0 0);
+Value off;
+Add W25X40BV 'G$1' next 0 (0 0);
 Package 'WSON8' 'WSON';
 Technology '';
-Connect  'G$1.CS' '1'  'G$1.SO' '2'  'G$1.WP' '3'  'G$1.VSS' '4'  'G$1.SI' '5' \
-         'G$1.SCK' '6'  'G$1.HOLD' '7'  'G$1.VCC' '8';
+Connect  'G$1.CS' '1'  'G$1.HOLD' '7'  'G$1.SCK' '6'  'G$1.SI' '5'  'G$1.SO' '2' \
+         'G$1.VCC' '8'  'G$1.VSS' '4'  'G$1.WP' '3';
 Package 'SOIC8' 'SOIC';
 Technology '';
-Connect  'G$1.CS' '1'  'G$1.SO' '2'  'G$1.WP' '3'  'G$1.VSS' '4'  'G$1.SI' '5' \
-         'G$1.SCK' '6'  'G$1.HOLD' '7'  'G$1.VCC' '8';
+Connect  'G$1.CS' '1'  'G$1.HOLD' '7'  'G$1.SCK' '6'  'G$1.SI' '5'  'G$1.SO' '2' \
+         'G$1.VCC' '8'  'G$1.VSS' '4'  'G$1.WP' '3';

@@ -12,9 +12,9 @@ Description '\
 <p><b>BMA180</b> - Bosch Sensortec Pressure Sensor</p>\n\
 \n\
 <p>Barometric Pressure Sensor - BMP085 [Digikey: 828-1005-1-ND]</p>';
-Value Off;
-Add BMP085 'G$1' Next 0 (-10.16 -10.16);
-Package 'BMP085' '''''';
+Value off;
+Add BMP085 'G$1' next 0 (-10.16 -10.16);
+Package 'BMP085' '';
 Technology '';
-Connect  'G$1.VDDA' '3'  'G$1.EOC' '2'  'G$1.GND' '1'  'G$1.SDA' '7'  'G$1.SCL' '6' \
+Connect  'G$1.EOC' '2'  'G$1.GND' '1'  'G$1.SCL' '6'  'G$1.SDA' '7'  'G$1.VDDA' '3' \
          'G$1.VDDD' '4'  'G$1.XCLR' '8';

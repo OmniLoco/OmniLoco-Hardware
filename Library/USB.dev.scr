@@ -13,9 +13,13 @@ Description '\
 \n\
 <ul>\n\
 <li><b>Micro USB</b> - ZX62-B-5PA(11) [Digikey: H11634CT-ND]</li>\n\
+<li><b>Micro USB</b> (with posts) - 10118193-0001LF [Digikey: 609-4616-1-ND]</li>\n\
 </ul>';
-Value Off;
-Add USB 'G$1' Next 0 (0 -2.54);
+Value off;
+Add USB 'G$1' next 0 (0 -2.54);
 Package 'USB-MICRO-B' 'MICRO-B';
 Technology '';
-Connect  'G$1.VBUS' 'VBUS'  'G$1.GND' 'GND'  'G$1.D-' 'D-'  'G$1.D+' 'D+';
+Connect  'G$1.D+' 'D+'  'G$1.D-' 'D-'  'G$1.GND' 'GND'  'G$1.VBUS' 'VBUS';
+Package 'USB-MICRO-B-POSTS' 'MICRO-B-POSTS';
+Technology '';
+Connect  'G$1.D+' 'D+'  'G$1.D-' 'D-'  'G$1.GND' 'GND'  'G$1.VBUS' 'VBUS';

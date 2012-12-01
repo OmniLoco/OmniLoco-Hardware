@@ -15,11 +15,13 @@ Footprints for testpoints, commonly used for debugging or connection points for 
 </p>\n\
 <p>\n\
 <b>POGOPIN1MM</b> - Throughhole footprint for 1mm pogopins.<br />\n\
-<b>ROUND1MM</b> - Smallest testpoint, for use with pogopins.<br />\n\
-<b>ROUND1.5MM</b> - Larger testpoint, more suited to handheld probing.<br />\n\
+<b>ROUND0.5MM</b> - Small testpoint for use with 0.48mm diameter pogopins.<br />\n\
+<b>ROUND0.7MM</b> - Small testpoint for use with 0.68mm diameter pogopins.<br />\n\
+<b>ROUND1MM</b> - Small testpoint for use with 1.02mm diameter pogopins.<br />\n\
+<b>ROUND1.5MM</b> - Larger testpoint more suited to handheld probing.<br />\n\
 </p>';
-Value On;
-Add TESTPOINT 'G$1' Next 0 (0 0);
+Value on;
+Add TESTPOINT 'G$1' next 0 (0 0);
 Package 'TESTPOINT_ROUND_1MM' 'ROUND1MM';
 Technology '';
 Connect  'G$1.1' '1';
@@ -27,5 +29,11 @@ Package 'TESTPOINT_ROUND_1.5MM' 'ROUND1.5MM';
 Technology '';
 Connect  'G$1.1' '1';
 Package 'TESTPOINT_1MM_POGOPIN' 'POGOPIN1MM';
+Technology '';
+Connect  'G$1.1' '1';
+Package 'TESTPOINT_ROUND_0.5MM' 'ROUND0.5MM';
+Technology '';
+Connect  'G$1.1' '1';
+Package 'TESTPOINT_ROUND_0.7MM' 'ROUND0.7MM';
 Technology '';
 Connect  'G$1.1' '1';

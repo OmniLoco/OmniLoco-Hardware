@@ -15,8 +15,8 @@ Description '\
 <li>200mA PTC (30V Max, Time-to-Trip: 0.02s) - Digikey: 507-1496-1-ND</li>\n\
 <li>750mA PTC (24V Max, Time-to-Trip: 0.2s) - Digikey: MF-MSMF075/24-2CT-ND</li>\n\
 </ul>';
-Value On;
-Add PTC 'G$1' Next 0 (0 0);
+Value on;
+Add PTC 'G$1' next 0 (0 0);
 Package '1206-PTC' '1206';
 Technology '';
 Connect  'G$1.1' '1'  'G$1.2' '2';
