@@ -20,12 +20,12 @@ Layer 94;
 Wire  0.254 (-10.16 7.62) (10.16 7.62) (10.16 -7.62) (-10.16 -7.62) \
       (-10.16 7.62);
 Layer 95;
-Change Size 2.54;
+Change Size 1.27;
 Change Ratio 8;
 Change Align bottom left;
 Text '>Name' R0 (-10.16 7.874);
 Layer 96;
-Change Size 2.54;
+Change Size 1.27;
 Change Ratio 8;
 Change Align bottom left;
-Text '>Value' R0 (-10.16 -10.414);
+Text '>Value' R0 (-10.16 -9.144);

@@ -10,10 +10,21 @@ Edit 'PTC.dev';
 Prefix 'F';
 Description '\
 <b>PTC (Resettable Fuse)</b>\n\
+\n\
+<p><b>1206 Package</b></p>\n\
+<ul>\n\
+<li>400mA (Trip) PTC (30V Max, Time-to-Trip: 0.05s) - Digikey: 507-1478-1-ND</li>\n\
+</ul>\n\
+\n\
+<p><b>1210 Package</b></p>\n\
+<ul>\n\
+<li>400mA (Trip) PTC (30V Max, Time-to-Trip: 0.02s) - Digikey: 507-1487-1-ND</li>\n\
+</ul>\n\
+\n\
 <p><b>1812 Package</b></p>\n\
 <ul>\n\
-<li>200mA PTC (30V Max, Time-to-Trip: 0.02s) - Digikey: 507-1496-1-ND</li>\n\
-<li>750mA PTC (24V Max, Time-to-Trip: 0.2s) - Digikey: MF-MSMF075/24-2CT-ND</li>\n\
+<li>200mA PTC (Trip) (30V Max, Time-to-Trip: 0.02s) - Digikey: 507-1496-1-ND</li>\n\
+<li>750mA PTC (Trip) (24V Max, Time-to-Trip: 0.2s) - Digikey: MF-MSMF075/24-2CT-ND</li>\n\
 </ul>';
 Value on;
 Add PTC 'G$1' next 0 (0 0);
@@ -21,5 +32,8 @@ Package '1206-PTC' '1206';
 Technology '';
 Connect  'G$1.1' '1'  'G$1.2' '2';
 Package '1812' '1812';
+Technology '';
+Connect  'G$1.1' '1'  'G$1.2' '2';
+Package '1210-PTC' '1210';
 Technology '';
 Connect  'G$1.1' '1'  'G$1.2' '2';

@@ -109,6 +109,21 @@ Description '\
   <td><b>Changes</b></td>\n\
 </tr>\n\
 <tr>\n\
+  <td>1.0.3</td>\n\
+  <td>06 December 2012</td>\n\
+  <td>\n\
+      <p>\n\
+      <b>Added</b>\n\
+      <ul>\n\
+        <li>MS5611 Pressure Sensor</li>\n\
+        <li>Crystal (with grounding)</li>\n\
+        <li>Lightpipe only footprint</li>\n\
+        <li>PTC1210 Resettable Fuse</li>\n\
+      </ul>\n\
+      </p>\n\
+  </td>\n\
+</tr>\n\
+<tr>\n\
   <td>1.0.2</td>\n\
   <td>12 Novenber 2012</td>\n\
   <td>\n\

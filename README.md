@@ -34,10 +34,10 @@ library. This process could be automated, although it's much easier to do it by 
 
 ### Exporting the library
 1. Open the OmniLoco library
-2. File>Export>Script (This will generate one large script with all the devices in it)
-3. Save it (temporary!!) to the `Library` directory as `_full_library.scr`
+2. File > Export > Script (This will generate one large script with all the devices in it)
+3. Save it to the `Library` directory as `_full_library.scr`
 4. Run the lbrdump.ulp script (located in the `Library` directory)
-5. Open the exported library (from first step)
+5. Open the exported library file (`_full_library.scr` from step 3)
 
 The method for exporting and building an EAGLE library using script files is adapted from 
 [DangerousPrototypes][1].
@@ -57,7 +57,7 @@ License
 -------
 All OmniLoco hardware is open source and compliant with the [Open Source Hardware Definition][2].
 
-Copyright (c) 2011 by the OmniLoco Foundation. This work is made available under the terms of the Creative Commons Attribution-ShareAlike 3.0 license, http://creativecommons.org/licenses/by-sa/3.0/.
+Copyright (c) 2012 by the OmniLoco Foundation. This work is made available under the terms of the Creative Commons Attribution-ShareAlike 3.0 license, http://creativecommons.org/licenses/by-sa/3.0/.
 
 <img src="http://oshwlogo.com/logos/oshw-logo-100-px.png" alt="Open Source Hardware" height="55px"/>
 <img src="http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png" alt="CC-BY-SA" height="55px"/>
