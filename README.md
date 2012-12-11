@@ -26,13 +26,14 @@ part of the library, rather than simply tracking one monolithic binary file.
 Exporting the library must be done before every commit which which includes changes to the
 library. This process could be automated, although it's much easier to do it by hand for now.
 
-### Building the library
+### Building the library from this repo
 1. Open a new library (or open an existing OmniLoco library)
 2. Run the lbrbuild.ulp script (located in the `Library` directory)
 3. Point to the generated (or downloaded from git) `librarydefaults.scr` when prompted
 4. All the packages/devices/symbols are added to the new/existing library
 
-### Exporting the library
+### Exporting the library after making changes
+0. If you are on Windows and using EAGLE 6.3.0 you can use the `Library/_dump_library.bat` script
 1. Open the OmniLoco library
 2. File > Export > Script (This will generate one large script with all the devices in it)
 3. Save it to the `Library` directory as `_full_library.scr`

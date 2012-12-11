@@ -1,6 +1,13 @@
-#usage "exports the library as an script, chop it into (managable) pieces"
+#usage "exports the library as an script, chop it into (managable) pieces, run from command line only"
 
 // Written by Chris van Dongen for Dangerous Prototypes
+// updated by angus peart for OmniLoco
+
+// NOTICE: This script is only for use from the command line, there is no GUI
+
+// USAGE: lbrdump.ulp path script
+//        path = The path to where the full library script is
+//        script = The full library script file
 
 // copied MakeValidFileName from lbr-dump-common.inc written by Francesco Montorsi <frm@users.sourceforge.net>
 
@@ -32,12 +39,9 @@ string notadded="Skipped:";
 string added="Added:";
 int numFiles;
 
-// some info :)
-dlgMessageBox("!This  script will take an export>script from a library and splits it into small scripts. This will (hopefully) prevent overwritting parts other people added and help the svn to track. If a small script already exist it will not be exported!!!");
-
 // ask user for script
-fname = dlgFileOpen("Select the library.scr", "", "*.scr");
-path = filedir(fname);
+path = filedir(argv[1]);
+fname = argv[2];
 
 // read scripts in directory
 numFiles=fileglob(files, path + "*.scr");
@@ -137,8 +141,8 @@ while(!stop)
 }
 
 // display the ones we (didn't) add
-if(notadded!="Skipped:") dlgMessageBox(notadded);
-if(added!="Added:") dlgMessageBox(added);
+//if(notadded!="Skipped:") dlgMessageBox(notadded);
+//if(added!="Added:") dlgMessageBox(added);
 
 // thank you for flying DP airlines..
 exit(0);
