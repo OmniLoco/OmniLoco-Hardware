@@ -1,4 +1,7 @@
 
+# Eagle project files
+*.epf
+
 # EAGLE Autosave Files
 *.b#*
 *.s#*
