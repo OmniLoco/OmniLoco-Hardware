@@ -105,6 +105,8 @@ Description '\
         <li>Crystal (with grounding)</li>\n\
         <li>Lightpipe only footprint</li>\n\
         <li>PTC1210 Resettable Fuse</li>\n\
+        <li>Passive footprint updates</li>\n\
+        <li>Component name/value consistency</li>\n\
       </ul>\n\
       </p>\n\
   </td>\n\

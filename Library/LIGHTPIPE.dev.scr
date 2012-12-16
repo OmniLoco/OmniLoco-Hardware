@@ -17,4 +17,3 @@ Value off;
 Add LIGHTPIPE 'G$1' next 0 (0 0);
 Package 'VLP-LIGHTPIPES' '';
 Technology '';
-Grid inch;

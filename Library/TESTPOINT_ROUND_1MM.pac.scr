@@ -10,3 +10,13 @@ Edit 'TESTPOINT_ROUND_1MM.pac';
 Description '';
 Layer 1;
 Smd '1' 1 1 -100 R0 NOCREAM (0 0);
+Layer 51;
+Change Spacing 1.27;
+Change Pour solid;
+Polygon 0  (0 -0.5) -90 (-0.5 0) -90 (0 0.5) -90 (0.5 0) -90 \
+      (0 -0.5);
+Layer 25;
+Change Size 0.3;
+Change Ratio 8;
+Change Align bottom left;
+Text '>Name' R0 (-0.4 0.6);
